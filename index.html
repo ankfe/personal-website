@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cherry LIU (刘采焱) — 中山大学英语专业 2026 届，产品 / 运营 / 内容营销方向。可实习 6 个月，立即到岗。" />
+  <title>Cherry LIU · 个人网站</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='serif'>C</text></svg>" />
+</head>
+<body>
+  <!-- 导航 -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#home" class="nav__logo">Cherry LIU<span>.</span></a>
+      <button class="nav__toggle" id="navToggle" aria-label="打开菜单">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav__links" id="navLinks">
+        <a href="#about">关于</a>
+        <a href="#experience">经历</a>
+        <a href="#projects">项目</a>
+        <a href="#skills">技能</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">联系</a>
+        <a href="resume.pdf" class="nav__cta" download>简历 PDF</a>
+        <a href="index-en.html" class="nav__lang">EN</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container hero__inner reveal">
+      <!-- 头像轮播（视觉中心，不占过多画幅） -->
+      <div class="hero__avatar" id="avatarCarousel">
+        <div class="carousel__track">
+          <img src="avatar-01.jpg" alt="Cherry LIU 头像 1" class="carousel__slide active" />
+          <img src="avatar-02.jpg" alt="Cherry LIU 头像 2" class="carousel__slide" />
+          <img src="avatar-03.jpg" alt="Cherry LIU 头像 3" class="carousel__slide" />
+          <img src="avatar-04.jpg" alt="Cherry LIU 头像 4" class="carousel__slide" />
+        </div>
+        <div class="carousel__dots" aria-hidden="true">
+          <span class="dot active"></span><span></span><span></span><span></span>
+        </div>
+        <div class="hero__avatar-fallback" aria-hidden="true">CL</div>
+      </div>
+
+      <p class="hero__eyebrow">PERSONAL WEBSITE <span>&nbsp;//&nbsp;</span> 个人网站</p>
+      <h1 class="hero__name">Cherry LIU</h1>
+      <p class="hero__role">中山大学 · 英语专业 · 2026 届</p>
+      <p class="hero__lead">
+        产品 · 运营 · 内容本地化 —— 用数据驱动增长，用语言连接世界。
+      </p>
+      <div class="hero__badges">
+        <span class="status status--green">可实习 6 个月</span>
+        <span class="status status--green">立即到岗</span>
+        <span class="status status--green">每周出勤 5 天</span>
+      </div>
+      <div class="hero__actions">
+        <a href="#about" class="btn btn--solid">查看履历</a>
+        <a href="resume.pdf" class="btn btn--line" download>下载简历 PDF</a>
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+    <!-- 关于 -->
+    <section class="block" id="about">
+      <p class="kicker"><span class="kicker__slash">//</span> 关于我</p>
+      <div class="about">
+        <div class="about__intro reveal">
+          <div class="about__names">
+            <span class="en">Cherry LIU</span><span class="cn">刘采焱</span>
+          </div>
+          <p class="lead">
+            中山大学英语专业 2026 届本科生，已获保研资格。
+            兼具<strong>语言专业能力</strong>与<strong>互联网运营实操经验</strong>，擅长在跨文化语境下完成
+            内容本地化、用户调研与数据驱动的产品运营工作。
+          </p>
+          <p>
+            在 Temu 跨境运营的实习中，我以数据选品将新品曝光率提升 15%；在中信出版社的翻译项目中，
+            独立交付 3.1 万字译稿并提前 3 天交稿。我相信"理解用户"与"把事做成"同样重要。
+          </p>
+        </div>
+        <aside class="edu reveal">
+          <p class="edu__label">教育背景</p>
+          <p class="edu__school">中山大学</p>
+          <p class="edu__major">英语 · 本科</p>
+          <p class="edu__date">2022.09 — 2026.06</p>
+          <ul class="edu__facts">
+            <li><span class="k">GPA</span><span class="v">3.90 <em>（专业前 20%）</em></span></li>
+            <li><span class="k">荣誉</span><span class="v">校优秀学生二等奖学金 · 校励志一等奖学金</span></li>
+            <li><span class="k">资格</span><span class="v">2026 届保研资格</span></li>
+          </ul>
+          <div class="tags">
+            <span>社会沟通</span><span>英文写作</span><span>英汉/汉英笔译</span>
+            <span>语言问题研读</span><span>文学话语研读</span><span>历史话语研读</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 经历 -->
+    <section class="block" id="experience">
+      <p class="kicker"><span class="kicker__slash">//</span> 经历</p>
+      <div class="timeline">
+        <article class="tl reveal cat--violet">
+          <div class="tl__dot" aria-hidden="true"></div>
+          <div class="tl__body">
+            <div class="tl__img"><img src="img-temu.jpg" alt="Temu 电商运营数据分析场景" loading="lazy" /></div>
+            <div class="tl__meta">
+              <span class="tl__date">2025.10 — 2025.12</span>
+              <span class="tl__tag">实习</span>
+            </div>
+            <h3 class="tl__role">Temu 运营实习生</h3>
+            <p class="tl__org">华豆科技有限公司</p>
+            <ul class="tl__points">
+              <li><strong>数据驱动选品与上架：</strong>独立负责 <em>5 个新店铺</em>的商品上架全流程，分析 Temu 平台热搜词与竞品定价，制定差异化方案，新品曝光率环比提升 <em>+15%</em>。</li>
+              <li><strong>用户反馈与产品优化：</strong>系统处理 <em>200+ 条</em>买家评价与退换货数据，提炼两大核心痛点并优化详情页，推动店铺好评率从 <em>88% → 94%</em>。</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="tl reveal cat--orange">
+          <div class="tl__dot" aria-hidden="true"></div>
+          <div class="tl__body">
+            <div class="tl__img"><img src="img-media.jpg" alt="创意设计与海报制作场景" loading="lazy" /></div>
+            <div class="tl__meta">
+              <span class="tl__date">2022.10 — 2024.06</span>
+              <span class="tl__tag">社团</span>
+            </div>
+            <h3 class="tl__role">技术部负责人</h3>
+            <p class="tl__org">学院青年传媒中心</p>
+            <ul class="tl__points">
+              <li><strong>需求沟通与交付：</strong>对接学院各部门紧急宣传需求，平均 <em>2 天</em>周期内完成 <em>20+ 套</em>活动海报设计，实现零延误交付。</li>
+              <li><strong>审美与工具落地：</strong>参与制定部门视觉规范 SOP 并组织团队培训，部员出图合格率提升至 <em>80%</em>。</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 项目 -->
+    <section class="block" id="projects">
+      <p class="kicker"><span class="kicker__slash">//</span> 项目</p>
+      <div class="cards">
+        <article class="pcard reveal cat--blue">
+          <div class="pcard__img"><img src="img-museum.jpg" alt="博物馆数字平台与用户体验研究场景" loading="lazy" /></div>
+          <div class="pcard__top">
+            <span class="pcard__cat">大创 · 主持人</span>
+            <span class="pcard__date">2023.10 — 2024.12</span>
+          </div>
+          <h3 class="pcard__title">数字平台用户体验与本地化调研</h3>
+          <p class="pcard__org">大学生创新创业训练计划</p>
+          <ul class="pcard__points">
+            <li><strong>调研框架搭建：</strong>针对中外博物馆官网及海外社媒建设差异，自主构建含界面友好度、信息可获取性、多语言覆盖度等 <em>5 维度评价指标体系</em>。</li>
+            <li><strong>定性 + 定量分析：</strong>带领 <em>4 人团队</em>爬取国内外 <em>30+ 博物馆</em>官网及 Instagram / TikTok 官方账号数据。</li>
+            <li><strong>产品化输出：</strong>撰写万字《博物馆数字化传播优化建议报告》，项目获校级"优良"结项评价。</li>
+          </ul>
+        </article>
+
+        <article class="pcard reveal cat--green">
+          <div class="pcard__img"><img src="img-translation.jpg" alt="翻译与内容本地化工作场景" loading="lazy" /></div>
+          <div class="pcard__top">
+            <span class="pcard__cat">翻译 / 审校</span>
+            <span class="pcard__date">2025.01 — 2025.03</span>
+          </div>
+          <h3 class="pcard__title">内容本地化与多角色协同项目管理</h3>
+          <p class="pcard__org">中信出版社《新太空经济》</p>
+          <ul class="pcard__points">
+            <li><strong>内容交付管理：</strong>在跨校（北航 + 中大）协作团队中，独立负责第一部分 <em>2.6 万词</em>英文翻译与审校，终稿中文书稿约 <em>3.1 万字</em>。</li>
+            <li><strong>质量把控与协同：</strong>统一本章节专有名词译法，输出术语对照表供全组复用；<em>2 个月</em>周期内<strong>提前 3 天</strong>交付，获项目负责人认可。</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- 技能 -->
+    <section class="block" id="skills">
+      <p class="kicker"><span class="kicker__slash">//</span> 技能与能力</p>
+      <div class="skills">
+        <div class="skillcol reveal">
+          <h3 class="skillcol__title">语言</h3>
+          <ul class="lines">
+            <li><span>英语（专四 / 专八 优秀）</span><b>精通</b></li>
+            <li><span>雅思 7.5（阅读 / 听力 8.5）</span><b>优秀</b></li>
+            <li><span>德语（微专业）</span><b>进阶</b></li>
+            <li><span>粤语（母语）/ 普通话</span><b>母语</b></li>
+          </ul>
+        </div>
+        <div class="skillcol reveal">
+          <h3 class="skillcol__title">工具与技能</h3>
+          <ul class="lines">
+            <li><span>数据分析（VLOOKUP / 透视表）</span><b>熟练</b></li>
+            <li><span>Office 办公软件</span><b>熟练</b></li>
+            <li><span>Photoshop / 摄影</span><b>良好</b></li>
+            <li><span>全国计算机二级</span><b>已通过</b></li>
+          </ul>
+        </div>
+        <div class="skillcol skillcol--wide reveal">
+          <h3 class="skillcol__title">核心能力</h3>
+          <div class="tags tags--left">
+            <span class="dot dot--violet">组织协调能力</span>
+            <span class="dot dot--blue">跨部门协作能力</span>
+            <span class="dot dot--green">优秀的独立学习能力</span>
+            <span class="dot dot--orange">跨文化沟通</span>
+            <span class="dot dot--violet">内容本地化</span>
+            <span class="dot dot--blue">数据驱动运营</span>
+            <span class="dot dot--green">用户体验研究</span>
+            <span class="dot dot--orange">项目管理</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="block" id="faq">
+      <p class="kicker"><span class="kicker__slash">//</span> 常见问题</p>
+      <div class="faq-list">
+        <details class="faq-item reveal" open>
+          <summary class="faq-q"><span class="faq-num">01</span> 你为什么想申请产品岗位？</summary>
+          <div class="faq-a">
+            <p>我在 Temu 运营实习中深入参与了选品决策、用户反馈分析和产品优化——本质上就是在做"没有产品经理头衔的产品工作"。我发现我最享受的环节不是执行，而是<strong>理解用户痛点 → 定义解决方案 → 验证效果</strong>这个闭环。我的语言背景让我在用户研究和内容本地化上有独特优势，我希望把这些能力系统性地应用到产品设计上。</p>
+          </div>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary class="faq-q"><span class="faq-num">02</span> 你觉得自己最大的优势是什么？</summary>
+          <div class="faq-a">
+            <p><strong>跨界融合能力</strong>——我能同时站在"语言/文化"和"数据/运营"两个视角看问题。做 Temu 选品时，我不只看数据，还会关注不同市场用户的语言习惯和文化偏好；做大创调研时，我用定性访谈 + 定量爬虫双管齐下。这种交叉视角让我在做用户研究和需求分析时能发现纯技术或纯文科背景的人容易忽略的点。</p>
+          </div>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary class="faq-q"><span class="faq-num">03</span> 你的英语专业背景对做产品有什么帮助？</summary>
+          <div class="faq-a">
+            <p>三方面的实际价值：<strong>① 用户研究</strong>——我能直接阅读和撰写英文 PRD、竞品报告、用户访谈记录，无需翻译损耗；<strong>② 本地化思维</strong>——我的翻译和本地化项目经验让我天然关注"同一功能在不同文化语境下的表达差异"，这对出海产品至关重要；<strong>③ 信息处理效率</strong>——专四/专八优秀、雅思 7.5 的语言能力让我能快速消化大量英文文档和行业资料。</p>
+          </div>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary class="faq-q"><span class="faq-num">04</span> 你如何理解"以用户为中心"？</summary>
+          <div class="faq-a">
+            <p>这不是一句口号，而是一套可操作的方法论。在我的实践中体现为三个步骤：<br>
+            1️⃣ <strong>收集信号</strong>——Temu 实习中我系统整理了 200+ 条买家评论，而不是凭感觉判断；大创项目中我爬取了 30+ 个博物馆的数据。<br>
+            2️⃣ <strong>提炼模式</strong>——从杂乱反馈中提炼出"尺码描述模糊""物流时效敏感"这类可行动的洞察。<br>
+            3️⃣ <strong>验证迭代</strong>——优化详情页后好评率从 88% 提升到 94%，用数据验证假设。<br>
+            我相信好的产品设计始于倾听，终于验证。</p>
+          </div>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary class="faq-q"><span class="faq-num">05</span> 你怎么看待与开发/设计的协作？</summary>
+          <div class="faq-a">
+            <p>我有实际的跨角色协作经验——中信出版社翻译项目中，我在北航和中大两个团队的协作网络中担任"接口人"角色：统一术语标准、输出协作规范、管理交付时间线。这本质上就是产品经理在跨职能团队中的协调工作。我相信清晰的文档（PRD/术语表）、主动的对齐节奏和尊重每个角色的专业性是高效协作的基础。</p>
+          </div>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary class="faq-q"><span class="faq-num">06</span> 实习期间你希望获得什么？</summary>
+          <div class="faq-a">
+            <p>三件事：<strong>① 深入参与一个完整的产品生命周期</strong>——从需求定义到上线迭代的全过程；<strong>② 向有经验的产品导师学习</strong>——观察他们如何做决策、权衡优先级、处理模糊性；<strong>③ 用实际产出证明自己的价值</strong>——无论是用户研究报告、竞品分析还是功能优化方案，我希望留下可衡量的贡献。我可以全职实习 6 个月，有充足的时间深度投入。</p>
+          </div>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary class="faq-q"><span class="faq-num">07</span> 如何联系你开始合作？</summary>
+          <div class="faq-a">
+            <p>欢迎随时通过以下方式联系我：<br>
+            📱 电话 / 微信：<strong>18926126079</strong>&nbsp;&nbsp;|&nbsp;&nbsp;✉️ 邮箱：<strong>714370433@qq.com</strong><br>
+            我可以 <strong>立即到岗</strong>，可实习 <strong>6 期待您的消息！</strong></p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- 联系 -->
+    <section class="block contact" id="contact">
+      <p class="kicker"><span class="kicker__slash">//</span> 联系</p>
+      <p class="contact__lead">欢迎就实习机会、项目合作或任何想法与我联系，期待您的消息。</p>
+      <div class="contact__cards">
+        <a class="ccard" href="tel:18926126079">
+          <span class="ccard__k">电话</span>
+          <span class="ccard__v">18926126079</span>
+          <span class="ccard__n">微信同号</span>
+        </a>
+        <a class="ccard" href="mailto:714370433@qq.com">
+          <span class="ccard__k">邮箱</span>
+          <span class="ccard__v">714370433@qq.com</span>
+          <span class="ccard__n">随时欢迎来信</span>
+        </a>
+        <a class="ccard" href="resume.pdf" download>
+          <span class="ccard__k">简历</span>
+          <span class="ccard__v">下载 PDF</span>
+          <span class="ccard__n">完整版履历</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Cherry LIU (刘采焱) · 个人网站</p>
+      <p class="footer__tip">由简历自动生成 · 纯静态 HTML / CSS / JS 构建 · 设计灵感来自 <a href="https://paul-hahn.com/" target="_blank" rel="noopener">paul-hahn.com</a></p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
